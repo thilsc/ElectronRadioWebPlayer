@@ -1,0 +1,19 @@
+{
+  "name": "electronapp",
+  "version": "1.0.0",
+  "description": "Electron App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . ElectronApp --platform=win32 --arch=x64 --icon=favicon.ico --out=dist --overwrite",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thiago Coutinho",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.2.0",
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^17.1.2"
+  }
+}
